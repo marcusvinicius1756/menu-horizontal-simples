@@ -1,0 +1,39 @@
+/* Resetando meu documento, colocando uma fonte especifica como padrão, fazendo com que os elementos fiquem no centro da página, sem espaçamento interno e que o modelo de box-sizing seja border-box */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+
+/* Estilizando os li's retirando as bolinhas que vem por padrão, retirando seu padding e colocando eles horizontalmente alinhados na mesma linha. */
+
+header nav .menu-simples li{
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+
+/* Retirando a linha inferior dos links que vem por padrão e adicionado um espaçamento maior entre os links. */
+
+header nav .menu-simples li a{
+    text-decoration: none;
+    padding: 20px;
+    transition: 0.4s;
+}
+
+/* Colocando um hover estilizado para mudar o fundo dos meus itens do menu ao passar o mause. */
+
+header nav .menu-simples li a:hover{
+    background-color: rgb(0, 119, 175);
+}
+
+/* Estilizando o fundo do meu menu. */
+
+header nav .menu-simples{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
